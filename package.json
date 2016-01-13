@@ -2,7 +2,7 @@
   "name": "vndev-memoryGame",
   "private": true,
   "version": "0.0.0",
-  "description": "React Redux Starter",
+  "description": "React-Redux-Starter",
   "repository": "",
   "license": "MIT",
   "engines": {
