@@ -8,10 +8,7 @@ const createComposedStore = compose(
 applyMiddleware(thunk, createLogger({
     collapsed: true,
     duration: true,
-    timestamp: true,
-    transformer: (state = Map())=>{
-        return Object.assign(Map(state).toJS(), { [Symbol("Immutable State")]: state });
-    }
+    timestamp: true
 }))
 )(createStore);
 

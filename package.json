@@ -1,5 +1,5 @@
 {
-  "name": "vndev-memoryGame",
+  "name": "React-Redux-Starter",
   "private": true,
   "version": "0.0.0",
   "description": "React-Redux-Starter",
@@ -54,6 +54,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.@(js|jsx)'",
     "test:watch": "npm run test -- --watch",
     "dev": "webpack-dev-server --progress --colors --config",
+    "deploy": "NODE_ENV=production webpack --production --colors",
     "start": "npm run dev"
   }
 }
