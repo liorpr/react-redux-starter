@@ -1,9 +1,8 @@
-import { combineReducers } from 'redux';
-import app from './appReducer';
-import intro from './introReducer';
 
-const rootReducer = combineReducers({
-    app,
-    intro
-});
-export default rootReducer;
+import { combineReducers } from 'redux';
+
+import counter from './counter';
+
+export default combineReducers( {
+    counter
+} );
